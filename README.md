@@ -51,7 +51,12 @@ war-thunder-voice-extractor/
 - 提取的是游戏本地文件，**纯本地处理，无任何上传**
 - 非官方工具，与 Gaijin Entertainment 无关；语音版权归 Gaijin 所有，请勿商用
 
-## 👨‍💻 开发者
+## 🛠️ 技术栈
+
+- **界面**：C# / WinForms（源码：gui/提取器.cs，用系统自带 csc.exe 编译）
+- **提取引擎**：JavaScript / Node.js（gui/extract_cli.mjs + @tootallnate/fsb5 解码库）
+
+## 👨💻 开发者
 
 - **i不是庸医**（抖音：22451437057）
 - V1.0
