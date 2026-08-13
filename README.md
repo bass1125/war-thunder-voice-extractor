@@ -12,13 +12,14 @@
 - 📝 **中文文件名**：`voice_message_commander_shot_v1.ogg` → `车长_开火_v1.ogg`
 - ▶️ **内置试听**：提取完直接播放，双击列表项也行
 - 🌙 **纯黑界面**：黑底白字，深夜打游戏也不刺眼
+- 📦 **免安装**：内置运行环境，不用装 Node.js
 
 ## 📋 系统要求
 
 | 项目 | 要求 |
 |---|---|
 | 系统 | Windows 10 / 11 |
-| 运行时 | [Node.js](https://nodejs.org)（提取引擎依赖，装 LTS 版即可） |
+| 运行时 | 无（已内置 Node.js 运行环境） |
 
 ## 🚀 使用
 
@@ -35,6 +36,7 @@
 ```
 war-thunder-voice-extractor/
 ├── 战争雷霆语音包提取器.exe   ← 主程序（双击运行）
+├── node.exe                   ← 内置运行环境（免安装 Node.js）
 ├── icon.ico                   ← 程序图标
 ├── gui/
 │   └── extract_cli.mjs        ← 提取引擎（Node.js）
